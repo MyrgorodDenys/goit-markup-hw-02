@@ -1,0 +1,32 @@
+:root {
+  --c-1: #404bbf;
+  --c-2: #4d5ae5;
+  --c-3: #2e2f42;
+  --c-4: #fff;
+  --c-5: #ffffff;
+}
+
+.logo {
+color: var(--c-2);
+}
+
+.nav-link {
+  color: var(--c-3)
+}
+.nav-link:hover {
+  color: var(--c-1)
+}
+
+.hero-section {
+  background-color: var(--c-3) /*TODO: replace with image*/
+}
+
+.hero-title {
+  color: var(--c-4)
+}
+
+.hero-button {
+  color: var(--c-5)
+  background-color: #4d5ae5;
+  padding: 16px 40px;
+}
