@@ -7,8 +7,9 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  color: var(--c-3); /* Змінено на --c-3, бо --c-primary не існує */
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 ul {
