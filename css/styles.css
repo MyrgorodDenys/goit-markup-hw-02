@@ -6,13 +6,49 @@
   --c-5: #ffffff;
 }
 
+body {
+  font-family: 'Raleway', sans-serif;
+  color: var(--c-primary);
+  }
+  ul {
+    list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+    }
+button {
+  font-family: 'Raleway', sans-serif;
+}
+
 .logo {
 color: var(--c-2);
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16; 
+letter-spacing: 0.03em;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.logo::before {
+  content: "WEB";
+  color: var(--c-2);
+}
+
+.logo::after {
+  content: "STUDIO";
+  color: var(--c-3)
 }
 
 .nav-link {
   color: var(--c-3)
+  font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
+
 .nav-link:hover {
   color: var(--c-1)
 }
@@ -30,3 +66,76 @@ color: var(--c-2);
   background-color: #4d5ae5;
   padding: 16px 40px;
 }
+
+.section-1 {
+  color: var(--c-3)
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-1-text {
+  color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+
+.section-2 {
+  color: var(--c-3)
+  font-size: 36px;
+   font-weight: 700;
+  line-height: 1.11; 
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.section-2-1 {
+  color: var(--c-3)
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-2-1-text {
+  color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+  
+Footer {
+background-color: var(--c-3) 
+}
+  .logo-1 {
+    color: var(--c-2);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16; 
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    
+    .logo-1::before {
+      content: "WEB";
+      color: var(--c-2);
+    }
+    
+    .logo-1::after {
+      content: "STUDIO";
+      color: #F4F4FD
+    }
+
+    .footer-1 {
+      color: #F4F4FD;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+    }
