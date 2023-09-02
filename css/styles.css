@@ -9,15 +9,19 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--c-4);
+  margin: 0; 
 }
 
 ul {
   list-style-type: none;
+  margin: 0; 
+  padding: 0; 
 }
 
 a {
   text-decoration: none;
+  color: inherit; 
 }
 
 button {
@@ -25,23 +29,18 @@ button {
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif; 
   color: var(--c-2);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17; 
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.logo::before {
-  content: 'WEB';
-  color: var(--c-2);
-}
-
-.logo::after {
-  content: 'STUDIO';
-  color: var(--c-3); /* Змінено на --c-3 */
+.logo span {
+  color: var(--c-3); 
 }
 
 .nav-link {
@@ -50,126 +49,62 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  transition: color 0.3s; 
 }
 
 .nav-link:hover {
   color: var(--c-1);
 }
 
-.hero-section {
-  background-color: var(--c-3); /* TODO: replace with image */
-}
-
-.hero-title {
-  color: var(--c-4);
-}
-
-.hero-button {
-  color: var(--c-5);
-  background-color: #4d5ae5;
+button.hero-button,
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   padding: 16px 40px;
+  border: none;
+  border-radius: 4px;
 }
 
-.section-1 {
-  color: var(--c-3);
-  font-size: 20px;
+button.hero-button {
+  color: var(--c-5);
+  background-color: var(--c-2);
+  transition: background-color 0.3s;
+}
+
+button.hero-button:hover {
+  background-color: var(--c-1);
+}
+
+address {
+  font-style: normal; 
+}
+
+ul li a {
+  min-width: 160px; 
+}
+
+h2,
+h3 {
   font-weight: 500;
-  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.section-1-text {
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
-.section-2 {
-  color: var(--c-3);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+a:focus {
+  color: var(--c-1);
 }
 
-.section-2-1 {
-  color: var(--c-3);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.section-2-1-text {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-Footer {
-  background-color: var(--c-3); /* Змінено на --c-3 */
-}
-
-.logo-1 {
-  color: var(--c-2);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.logo-1::before {
-  content: 'WEB';
-  color: var(--c-2);
-}
-
-.logo-1::after {
-  content: 'STUDIO';
-  color: #f4f4fd;
-}
-
-.section-3 {
-  color: var(--c-3);
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.section-3-1 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.section-3-1-text {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.footer-1 {
-  color: #f4f4fd;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+a:hover {
+  color: var(--c-1);
 }
