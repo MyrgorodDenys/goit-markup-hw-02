@@ -57,7 +57,7 @@ span {
   color: var(--c-1);
 }
 
-address {
+.address {
   color: #434455;
   font-style: normal;
   font-family: Roboto;
@@ -68,11 +68,11 @@ address {
   letter-spacing: 0.02em;
 }
 
-address:hover {
+.address:hover {
   color: #404bbf;
 }
 
-address:focus {
+.address:focus {
   color: #404bbf;
 }
 
