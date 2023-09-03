@@ -72,6 +72,10 @@ address:hover {
   color: #404bbf;
 }
 
+address:focus {
+  color: #404bbf;
+}
+
 .hero-section {
   background-color: var(--c-3); /* TODO: replace with image */
 }
