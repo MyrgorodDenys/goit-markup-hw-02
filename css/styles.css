@@ -64,6 +64,7 @@ span {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .link-class {
@@ -75,18 +76,6 @@ span {
 }
 
 .link-class:focus {
-  color: #404bbf;
-}
-
-.phone-link {
-  color: #434455;
-}
-
-.phone-links:hover {
-  color: #404bbf;
-}
-
-.phone-link:focus {
   color: #404bbf;
 }
 
