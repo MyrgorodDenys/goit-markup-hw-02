@@ -93,7 +93,7 @@ address:hover {
 }
 
 .hero-button {
-  font-family: "Roboto", sans-serif 
+  font-family: "Roboto", sans-serif; 
   color: #ffffff;
   font-weight: 500; 
   line-height: 1.5;
@@ -108,7 +108,7 @@ address:hover {
   background-color: #404BBF;
 }
 
-.section-1 {
+.section-one {
   color: var(--c-3);
   font-size: 20px;
   font-weight: 500;
@@ -116,7 +116,7 @@ address:hover {
   letter-spacing: 0.02em;
 }
 
-.section-1-text {
+.section-one-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
