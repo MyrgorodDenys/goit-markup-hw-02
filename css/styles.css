@@ -105,8 +105,8 @@ address:hover {
   text-align: center;
 }
 
-.hero-button:hover {
-  background-color: #404bbf;
+.hero-button:focus {
+  color: #404bbf;
 }
 
 .section-one {
@@ -132,6 +132,7 @@ address:hover {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .section-two-one {
@@ -155,10 +156,11 @@ footer {
 }
 
 .logo-one {
+  font-family: 'Raleway', sans-serif;
   color: var(--c-2);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
@@ -183,6 +185,7 @@ footer {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .section-three-one {
@@ -210,4 +213,7 @@ footer {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+span {
+  color: #f4f4fd;
 }
