@@ -6,9 +6,6 @@
   --c-5: #ffffff;
 }
 
-
-
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -107,9 +104,11 @@ address:hover {
   cursor: pointer;
   text-align: center;
 }
-
+.hero-button:hover {
+  background-color: #404bbf;
+}
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .section-one {
@@ -136,6 +135,7 @@ address:hover {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  background-color: #F4F4FD;
 }
 
 .section-two-one {
@@ -216,4 +216,3 @@ footer {
 span {
   color: #f4f4fd;
 }
-
