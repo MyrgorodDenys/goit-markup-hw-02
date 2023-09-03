@@ -144,6 +144,7 @@ address:hover {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  background-color: #FFFFFF;
 }
 
 .section-two-one-text {
@@ -152,6 +153,7 @@ address:hover {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #FFFFFF;
 }
 
 footer {
