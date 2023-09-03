@@ -127,10 +127,6 @@ address:hover {
   letter-spacing: 0.02em;
 }
 
-section-two {
-  background-color: #f4f4fd;
-}
-
 .section-two {
   color: var(--c-3);
   font-size: 36px;
