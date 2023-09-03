@@ -63,7 +63,7 @@ button {
 }
 
 address {
-font-style: normal
+font-style: normal;
 }
 
 .hero-section {
@@ -72,11 +72,18 @@ font-style: normal
 
 .hero-title {
   color: var(--c-4);
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center
 }
 
 .hero-button {
   font-family: "Roboto", sans-serif 
-  color: var(--c-5);
+  color: #ffffff;
   font-weight: 500; 
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -87,7 +94,7 @@ font-style: normal
 }
 
 .hero-button:hover {
-  background-color: #404BBF
+  background-color: #404BBF;
 }
 
 .section-1 {
