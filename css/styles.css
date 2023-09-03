@@ -59,20 +59,34 @@ span {
 
 .address {
   color: #434455;
-  font-style: normal;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.address:hover {
+.link-class {
+  color: #434455;
+}
+
+.link-class:hover {
   color: #404bbf;
 }
 
-.address:focus {
+.link-class:focus {
+  color: #404bbf;
+}
+
+.phone-link {
+  color: #434455;
+}
+
+.phone-links:hover {
+  color: #404bbf;
+}
+
+.phone-link:focus {
   color: #404bbf;
 }
 
