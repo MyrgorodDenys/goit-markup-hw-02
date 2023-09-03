@@ -13,7 +13,7 @@ body {
 }
 
 span {
-  color:#2e2f42
+  color: #2e2f42;
 }
 
 ul {
@@ -46,7 +46,7 @@ button {
 
 .logo::after {
   content: 'STUDIO';
-  color: var(--c-3); 
+  color: var(--c-3);
 }
 
 .link {
@@ -64,17 +64,17 @@ button {
 
 address {
   color: #434455;
-font-style: normal;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 address:hover {
-  color: #404bbf; 
+  color: #404bbf;
 }
 
 .hero-section {
@@ -89,23 +89,24 @@ address:hover {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center
+  text-align: center;
 }
 
 .hero-button {
-  font-family: "Roboto", sans-serif; 
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  font-weight: 500; 
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-size: 16px;
   background-color: #4d5ae5;
   padding: 16px 40px;
-  cursor: pointer; 
+  cursor: pointer;
+  text-align: center;
 }
 
 .hero-button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .section-one {
@@ -124,7 +125,7 @@ address:hover {
   letter-spacing: 0.02em;
 }
 
-.section-2 {
+.section-two {
   color: var(--c-3);
   font-size: 36px;
   font-weight: 700;
@@ -133,7 +134,7 @@ address:hover {
   text-transform: capitalize;
 }
 
-.section-2-1 {
+.section-two-one {
   color: var(--c-3);
   font-size: 20px;
   font-weight: 500;
@@ -141,7 +142,7 @@ address:hover {
   letter-spacing: 0.02em;
 }
 
-.section-2-1-text {
+.section-two-one-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -149,11 +150,11 @@ address:hover {
   letter-spacing: 0.02em;
 }
 
-Footer {
-  background-color: var(--c-3); /* Змінено на --c-3 */
+footer {
+  background-color: var(--c-3);
 }
 
-.logo-1 {
+.logo-one {
   color: var(--c-2);
   font-size: 18px;
   font-weight: 700;
@@ -163,17 +164,17 @@ Footer {
   text-transform: uppercase;
 }
 
-.logo-1::before {
+.logo-one::before {
   content: 'WEB';
   color: var(--c-2);
 }
 
-.logo-1::after {
+.logo-one::after {
   content: 'STUDIO';
   color: #f4f4fd;
 }
 
-.section-3 {
+.section-three {
   color: var(--c-3);
   font-family: Roboto;
   font-size: 36px;
@@ -184,7 +185,7 @@ Footer {
   text-transform: capitalize;
 }
 
-.section-3-1 {
+.section-three-one {
   color: #2e2f42;
   font-size: 20px;
   font-style: normal;
@@ -193,7 +194,7 @@ Footer {
   letter-spacing: 0.02em;
 }
 
-.section-3-1-text {
+.section-three-one-text {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -202,7 +203,7 @@ Footer {
   letter-spacing: 0.02em;
 }
 
-.footer-1 {
+.footer-one {
   color: #f4f4fd;
   font-size: 16px;
   font-style: normal;
@@ -210,4 +211,3 @@ Footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
