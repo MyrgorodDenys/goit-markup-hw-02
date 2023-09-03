@@ -145,6 +145,11 @@ span {
   color: #2e2f42;
 }
 
+.team-member-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .section-two {
   color: var(--c-3);
   font-size: 36px;
