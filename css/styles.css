@@ -128,11 +128,7 @@ address:hover {
 }
 
 section-two {
-  background: var(--CLOUD, #f4f4fd);
-}
-
-ul {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .section-two {
