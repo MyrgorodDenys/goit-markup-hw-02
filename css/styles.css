@@ -171,11 +171,6 @@ footer {
   color: var(--c-2);
 }
 
-.logo-one::after {
-  content: 'STUDIO';
-  color: #f4f4fd;
-}
-
 .section-three {
   color: var(--c-3);
   font-family: Roboto;
@@ -214,6 +209,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 span {
   color: #f4f4fd;
 }
