@@ -127,6 +127,14 @@ address:hover {
   letter-spacing: 0.02em;
 }
 
+section-two {
+  background: var(--CLOUD, #f4f4fd);
+}
+
+ul {
+  background-color: #ffffff;
+}
+
 .section-two {
   color: var(--c-3);
   font-size: 36px;
@@ -135,7 +143,6 @@ address:hover {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  background-color: #F4F4FD;
 }
 
 .section-two-one {
@@ -144,7 +151,6 @@ address:hover {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #FFFFFF;
 }
 
 .section-two-one-text {
@@ -153,7 +159,6 @@ address:hover {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #FFFFFF;
 }
 
 footer {
